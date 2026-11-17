@@ -1,1 +1,10 @@
+# 构建产物
 build/
+app/classes/
+app/dexout/
+app/work.apk
+app/app-signed.apk
+app/app-signed.apk.idsig
+app/base-unsigned.apk.idsig
+module/app/*.apk
+*.dex
