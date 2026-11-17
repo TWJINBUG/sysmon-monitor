@@ -1,0 +1,6 @@
+id=sysmon_mem
+name=设备监控 · 内存采集服务
+version=v1.1
+versionCode=2
+author=YG
+description=以 root 身份每 3 秒扫描 /proc/*/smaps_rollup，把各应用 PSS 写入设备监控 App 的私有目录，App 侧无需 su 授权即可显示各应用内存占用。

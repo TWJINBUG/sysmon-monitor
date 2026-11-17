@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 温度计外壳（白色胶囊 + 圆球） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,32 a5,5 0 0 1 10,0 v33 h-10 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,66 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0" />
+
+    <!-- 水银柱（底色蓝） -->
+    <path
+        android:fillColor="#2E6FF2"
+        android:pathData="M55,66 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#2E6FF2"
+        android:pathData="M52,44 h6 v24 h-6 z" />
+</vector>
